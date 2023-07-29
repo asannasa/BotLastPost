@@ -1,0 +1,9 @@
+/venv/
+/.idea/
+/doc/
+.env
+bot.db.temp
+temp2.txt
+bot.db
+bot_log.log
+temp.txt

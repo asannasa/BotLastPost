@@ -1,0 +1,11 @@
+[Unit]
+Description=Bot Last Post
+
+[Service]
+WorkingDirectory=/home/BotLastPost/BotLastPost
+User=BotLastPost
+Group=BotLastPost
+ExecStart=/home/BotLastPost/BotLastPost/venv/bin/python /home/BotLastPost/BotLastPost/main.py
+
+[Install]
+WantedBy=multi-user.target

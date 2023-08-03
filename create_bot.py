@@ -4,7 +4,7 @@ import os
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 import logging
 
-logging.basicConfig(level=logging.INFO, filename="bot_log.log", filemode="a",
+logging.basicConfig(level=logging.INFO, filename="BotLastPost.log", filemode="a",
                     format="%(asctime)s %(levelname)s %(message)s")
 
 
